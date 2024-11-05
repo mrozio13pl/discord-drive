@@ -1,0 +1,50 @@
+* {
+    min-width: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans Variable', sans-serif;
+}
+
+h1 {
+    font-size: 3.75rem; /* text-6xl */
+    font-weight: 800;
+}
+h2 {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.875rem; /* text-3xl */
+}
+h4 {
+    font-size: 1.5rem; /* text-2xl */
+}
+h5 {
+    font-size: 1.25rem; /* text-xl */
+}
+h6 {
+    font-size: 1.125rem; /* text-lg */
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+body[data-theme="light"] ::-webkit-scrollbar-track {
+    background: #f1f1f1!important;
+}
+
+body ::-webkit-scrollbar-track {
+    background: rgb(11, 11, 37);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,12 @@
+node_modules
+temp
+coverage
+dist
+
+.env
+.env.local
+
+.db
+.vscode
+/public/*
+!/public/index.html
